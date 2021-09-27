@@ -1,10 +1,10 @@
 <template>    
-    <li>{{item}}</li>
+    <li v-bind:value="index+1">{{item}}</li>
 </template>
 
 <script>
 export default {
     name:'ListModel',
-    props:['item']
+    props:['item','index']
 }
 </script>

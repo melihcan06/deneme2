@@ -2,9 +2,9 @@
   <div id="app">
     <div>
       <input-model @catchItem="sendItem"></input-model>
-      <ul v-for="(item, index) in items" v-bind:key="index">
-        <list-model :item="item"></list-model>
-      </ul>
+      <ol v-for="(item, index) in items" v-bind:key="index">
+        <list-model :item="item" :index="index"></list-model>
+      </ol>
     </div>
   </div>
 </template>
