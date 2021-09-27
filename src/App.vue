@@ -9,6 +9,7 @@
   </div>
 </template>
 
+
 <script>
 
 import InputModel from './components/InputModel.vue'
